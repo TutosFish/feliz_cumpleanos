@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171116">
+  <title>Una sorpresa para Jenifer 💖</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="sparkles" aria-hidden="true">✦　·　♡　·　✧　·　♡　·　✦</div>
+  <main class="experience">
+    <section class="slide active" id="portada" aria-labelledby="title-main">
+      <div class="ears-mark" aria-hidden="true"><span></span><span></span><i></i></div>
+      <p class="eyebrow">UNA SORPRESA HECHA CON MUCHO CARIÑO</p>
+      <h1 id="title-main">¡Feliz cumpleaños,<br><em>Jenifer!</em></h1>
+      <p class="lead">Hoy el día es más bonito porque se celebra tu vida. 🎂</p>
+      <div class="birthday-tags"><span>♡ Amistad</span><span>✦ Recuerdos</span><span>♥ Mucho cariño</span></div>
+      <button class="primary" data-go="carta">Abrir tu sorpresa <span>♡</span></button>
+      <p class="tiny-note">Preparada especialmente para vos</p>
+    </section>
+
+    <section class="slide letter-slide" id="carta" aria-labelledby="title-letter" hidden>
+      <div class="section-kicker">UN MENSAJE PARA VOS</div>
+      <div class="letter-card">
+        <div class="letter-top"><span>Con cariño,</span><span class="heart-stamp">♥</span></div>
+        <h2 id="title-letter">Querida Jenifer 🌷</h2>
+        <div class="letter-copy">
+          <p>💖 <strong>Feliz cumpleaños, mi Jenifer</strong> 🎂🌷</p>
+          <p>Hoy es un día muy especial porque celebra la vida de una persona que ocupa un lugar muy bonito en mi corazón: ¡vos, amiga mía! ❤️</p>
+          <p>Quiero que sepas que tu amistad es uno de esos regalos que la vida nos da y que debemos cuidar con todo el corazón. Para mí, no sos simplemente una amiga; sos una persona especial que merece todo lo bonito que este mundo pueda ofrecer.</p>
+          <p>Gracias por ser parte de mi vida, por cada momento compartido, por las risas, las conversaciones, las ocurrencias y por esos pequeños detalles que, aunque a veces parezcan insignificantes, se convierten en recuerdos que uno guarda para siempre en el corazón. 🫶🏻</p>
+          <p>La verdadera amistad no se mide por el tiempo ni por la cantidad de veces que nos vemos, sino por el cariño sincero que permanece, por la confianza que construimos y por saber que hay personas que siempre tendrán un lugar especial en nuestra vida. Y vos, Jenifer, tenés ese lugar en la mía. 💕</p>
+          <p>Hoy le pido a Dios que te regale muchísimos años de vida, salud, amor, paz y felicidad. Que nunca te falten motivos para sonreír, personas que te quieran de verdad y fuerzas para cumplir cada uno de tus sueños. Que la vida te devuelva multiplicado todo lo bonito que llevás dentro de tu corazón. 🙏🏻✨</p>
+          <p>Nunca olvidés lo valiosa que sos y lo mucho que merecés ser feliz. Ojalá la vida nos permita seguir compartiendo momentos, creando recuerdos y celebrando juntas muchos cumpleaños más.</p>
+          <p>Con todo mi cariño, quiero que recibás este abrazo, aunque sea a través de estas palabras, y que sintás lo especial que sos para mí.</p>
+          <p>¡Feliz cumpleaños, Jenifer! 🎂💐 Que hoy y siempre la vida te sonría. Gracias por tu amistad y por ser parte de mi historia.</p>
+        </div>
+        <div class="signature"><span>Con muchísimo cariño,</span><strong>Hazel y Junieth</strong><small>que te queremos mucho ❤️🥹🌹</small></div>
+      </div>
+      <button class="primary" data-go="video">Ver tu video especial <span>▶</span></button>
+    </section>
+
+    <section class="slide video-slide" id="video" aria-labelledby="title-video" hidden>
+      <div class="section-kicker">UN RECUERDO PARA SONREÍR</div>
+      <h2 id="title-video">Un videíto para vos, Jenifer <span>♡</span></h2>
+      <p class="lead">Dale play y disfrutá esta pequeña sorpresa. ✨</p>
+      <div class="video-frame">
+        <div class="video-topline"><span>♥ FELIZ CUMPLEAÑOS ♥</span><span>✦ ✦ ✦</span></div>
+        <video id="birthday-video" controls playsinline preload="metadata">
+          <source src="video-cumpleanos.mp4" type="video/mp4">
+          Tu navegador no puede reproducir este video. Probá abrir la página en Chrome o Edge.
+        </video>
+        <div class="video-bottomline">Hecho con amor para vos 🌹</div>
+      </div>
+      <button class="primary" data-go="final">Una última cosita <span>♡</span></button>
+    </section>
+
+    <section class="slide finale-slide" id="final" aria-labelledby="title-final" hidden>
+      <div class="ears-mark small" aria-hidden="true"><span></span><span></span><i></i></div>
+      <p class="eyebrow">QUE VENGAN MUCHOS MÁS</p>
+      <h2 id="title-final">¡Que la vida te regale mil motivos para sonreír! ✨</h2>
+      <p class="lead">Te queremos muchísimo, Jenifer. Que este nuevo año de vida venga lleno de amor, salud, sueños cumplidos y momentos inolvidables. 💖</p>
+      <div class="final-heart">♥</div>
+      <p class="signature-final">Con todo nuestro cariño,<br><strong>Hazel y Junieth</strong></p>
+      <button class="secondary" data-go="portada">Volver a ver la sorpresa ↺</button>
+    </section>
+
+    <nav class="progress-nav" aria-label="Navegación de la sorpresa">
+      <button class="nav-arrow" id="prev" aria-label="Pantalla anterior" disabled>‹</button>
+      <div class="dots" aria-label="Progreso"><span class="dot selected"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+      <button class="nav-arrow" id="next" aria-label="Siguiente pantalla">›</button>
+    </nav>
+    <p class="footer-note">Hecho con ♥ para celebrar tu vida</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
