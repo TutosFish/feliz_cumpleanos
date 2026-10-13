@@ -1,0 +1,12 @@
+SORPRESA DE CUMPLEAÑOS PARA JENIFER
+
+PARA VER LA PÁGINA:
+1. Extrae todo el contenido del archivo ZIP en una carpeta.
+2. Mantén index.html, styles.css, script.js y video-cumpleanos.mp4 juntos, como vienen.
+3. Abre index.html con Chrome, Edge o Firefox.
+
+IMPORTANTE:
+- No muevas el video fuera de esta carpeta: la página lo carga desde video-cumpleanos.mp4.
+- El video está integrado dentro de la página y se reproduce al presionar Play.
+- La fuente decorativa se descarga de Google Fonts si hay conexión; la página sigue funcionando sin ella.
+- Para publicar la página en internet, sube todos estos archivos manteniendo la misma estructura.
